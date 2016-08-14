@@ -14,6 +14,20 @@
 			<key>cell</key>
 			<string>PSEditTextCell</string>
 			<key>placeholder</key>
+			<string>"Cold as Balls" temperature...</string>
+			<key>key</key>
+			<string>coldAsBallsTemp</string>
+			<key>default</key>
+			<string>32</string>
+			<key>isNumeric</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.zanehelton.hotasballs</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>placeholder</key>
 			<string>"Hot as Balls" temperature...</string>
 			<key>key</key>
 			<string>hotAsBallsTemp</string>
