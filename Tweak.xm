@@ -16,8 +16,10 @@ UIImageView *balls;
 	}
 
 	NSString *tempString = [[[self pageTemperature] text] stringByReplacingOccurrencesOfString:@"°" withString:@""];
+	NSDictionary *prefs = [NSDictionary dictionaryWithContentsOfFile:@"/var/mobile/Library/Preferences/com.zanehelton.hotasballs.plist"];
+	int hotAsBallsTemp = [prefs[@"hotAsBallsTemp"] intValue];
 	int pageTemperature = [tempString intValue];
-	if (pageTemperature >= 90) {
+	if (pageTemperature >= hotAsBallsTemp) {
 		[[self pageTemperature] setHidden:YES];
 		NSBundle *bundle = [[NSBundle alloc] initWithPath:@"/Library/MobileSubstrate/DynamicLibraries/com.zanehelton.hotasballs.bundle"];
 		balls = [[UIImageView alloc] initWithImage:[UIImage imageWithContentsOfFile:[bundle pathForResource:@"balls" ofType:@"png"]]];

@@ -5,9 +5,9 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>HotAsBallsPrefs</string>
+	<string>HotAsBalls</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.zanehelton.hotasballsprefs</string>
+	<string>com.zanehelton.hotasballs</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
