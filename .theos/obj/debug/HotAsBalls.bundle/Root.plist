@@ -58,6 +58,12 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>footerText</key>
+			<string>In order for your settings to save you must leave this page by pressing the back button.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
 			<string>© 2016 Zane Helton</string>
 		</dict>
 	</array>
